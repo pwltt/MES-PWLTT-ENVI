@@ -3,8 +3,9 @@
     {
     	public function index()
 		{
-		$this->load->database();
-		$this->load->view('home.php');
+            
+                $this->load->database('pawellukasiak');
+		$this->load->view('index');
 		}
     }
 ?>
