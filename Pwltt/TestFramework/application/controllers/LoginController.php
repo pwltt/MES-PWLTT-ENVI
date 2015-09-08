@@ -6,8 +6,8 @@ class LoginController extends CI_Controller
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
         
-        $this->form_validation->set_rules('login', 'Login', 'callback_login_check');
-	$this->form_validation->set_rules('pass', 'Password', 'required');
+        $this->form_validation->set_rules('login', 'Login', 'required|callback_checkUser');
+	$this->form_validation->set_rules('pass', 'Password', 'required|callback_checkUser');
         
         if ($this->form_validation->run() == FALSE)
         {
@@ -19,19 +19,25 @@ class LoginController extends CI_Controller
         }
     }
     
-    public function login_check($str)
-	{
-		if ($str == 'test')
-		{
-			$this->form_validation->set_message('login_check', 'The %s field can not be the word "test"');
-			return FALSE;
-		}
-		else
-		{
-			return TRUE;
-		}
-	}
-
+    public function checkUser()
+    {
+        $login = $this->input->post('login');
+        $pass = $this->input->post('pass');
+        
+        
+        $this->load->model('LoginModel');
+        
+        if ($this->LoginModel->login($login,$pass))
+        {
+            return TRUE; 
+        }
+        else
+        {
+            $this->form_validation->set_message('checkUser', 'Bledne dane logowania');
+            return FALSE;   
+        }
+    }
+   
     
     
 }
