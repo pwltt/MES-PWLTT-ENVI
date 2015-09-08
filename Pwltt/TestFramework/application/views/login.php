@@ -64,6 +64,8 @@
         <!--Alert zielony-->
         <div role="alert" class="alert alert-success">
           <strong>Udalo Ci sie zalogowac</strong>
+          
+            <p><?php echo anchor('LoginController/index', 'Try it again!'); ?></p>
         </div>
 <!--Koniec Alert-->
 

@@ -84,16 +84,16 @@
                 <span class="sr-only">Next</span>
               </a>
         </div>
-        <!---KONIEC SLIDER-->
+<!---KONIEC SLIDER-->
       
 
-        <!--GLOWNY BLOK STRONY-->
+<!--GLOWNY BLOK STRONY-->
         <div class="container">
         <br>
         <br>
         <br>
 
-        <!--Alert zielony-->
+<!--Alert zielony-->
         <div role="alert" class="alert alert-success">
           <strong>Udalo Ci sie mnie znaleźć!</strong> Strona jest w przebudowie i czeka na wypozycjonowanie
         </div>
@@ -107,11 +107,17 @@
       </div>
     <div class="container">
         <div class="form-inline">
-            <?php echo form_open('LoginController/index');?>
-                <input class="form-control" id="exampleInputLogin3" placeholder="Login" <?php echo form_input('login')?>
-                <input class="form-control" id="exampleInputPassword3" placeholder="Password" <?php echo form_input('pass')?>       
-                <input class="btn btn-default" <?php echo form_submit('submit','Login');?> 
-            <?php echo form_close();?>
+            <?php //echo validation_errors(); ?>
+                <?php echo form_open('LoginController/index');?>
+            
+                    <?php echo form_error('login'); ?>
+                    <input class="form-control" id="exampleInputLogin3" placeholder="Login" <?php echo form_input('login')?>
+                           
+                    <?php echo form_error('pass'); ?>
+                    <input class="form-control" id="exampleInputPassword3" placeholder="Password" <?php echo form_input('pass')?> 
+                    
+                    <input class="btn btn-default" <?php echo form_submit('submit','Login');?> 
+                <?php echo form_close();?>
         </div>
     </div>
     <!-- jQuery -->
