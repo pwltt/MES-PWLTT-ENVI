@@ -107,7 +107,7 @@
       </div>
     <div class="container">
         <div class="form-inline">
-            <?php //echo validation_errors(); ?>
+            <?php echo validation_errors(); ?>
                 <?php echo form_open('LoginController/index');?>
             
                     <?php echo form_error('login'); ?>
@@ -121,7 +121,27 @@
         </div>
     </div>
     
-    
+    <div class="container">
+        <div class="form-inline">
+            <?php echo validation_errors(); ?>
+                <?php echo form_open('RegisterController/index');?>
+            
+                    <?php echo form_error('login'); ?>
+                    <input class="form-control" id="exampleInputLogin3" placeholder="Login" <?php echo form_input('login')?>
+                           
+                    <?php echo form_error('pass'); ?>
+                    <input class="form-control" id="exampleInputPassword3" placeholder="Password" <?php echo form_input('pass')?> 
+                    
+                    <?php echo form_error('email'); ?>
+                    <input class="form-control" id="exampleInputPassword3" placeholder="E-mail" <?php echo form_input('email')?> 
+                    
+                    <?php echo form_error('phNumber'); ?>
+                    <input class="form-control" id="exampleInputPassword3" placeholder="phNumber" <?php echo form_input('phNumber')?> 
+                    
+                    <input class="btn btn-default" <?php echo form_submit('submit','Register');?> 
+                <?php echo form_close();?>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -9,6 +9,10 @@ class RegisterModel extends CI_Model
             'email' => $email,
          'phNumber' => $phNumber
          );
+        $this->db->select('login','pass');
+            $this->db->from('pawellukasiak');
+            $this->db->where('login',$login);
+        
         
         $query = $this->db->get();
             
@@ -20,8 +24,8 @@ class RegisterModel extends CI_Model
             }
             else 
             {
-                $this->db->insert('pawellukasiak',$data);
-                return true;
+                //$this->db->insert('pawellukasiak',$data);
+                return $data;
             }
         }  
     }
