@@ -10,15 +10,13 @@ class RegisterModel extends CI_Model
          'phNumber' => $phNumber
          );
         $this->db->select('login','pass');
-            $this->db->from('pawellukasiak');
-            $this->db->where('login',$login);
-        
-        
+        $this->db->from('pawellukasiak');
+      //$this->db->where('loginRegister',$login);     
         $query = $this->db->get();
             
         foreach ($query->result() as $row)
         {
-            if($row->login == $data['login'])
+            if($row->login == $data['loginRegister'])
             {
                 return false;
             }

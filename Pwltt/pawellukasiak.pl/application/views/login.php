@@ -59,13 +59,13 @@
       
 
 <!--GLOWNY BLOK STRONY-->
-        <div class="container">
+        <div class="container"> 
 
         <!--Alert zielony-->
         <div role="alert" class="alert alert-success">
           <strong>Udalo Ci sie zalogowac</strong>
-          
-            <p><?php echo anchor('LoginController/index', 'Try it again!'); ?></p>
+          <h2>Welcome <?php echo $username; ?>!</h2>
+          <a href="LoginController/logout"> Logout</a>
         </div>
 <!--Koniec Alert-->
 

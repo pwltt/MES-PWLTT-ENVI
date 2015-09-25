@@ -1,42 +1,35 @@
-<?php
-class LoginController extends CI_Controller 
-{
-    public function index()
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+session_start(); //we need to call PHP's session object to access it through CI
+class LoginController extends CI_Controller {
+
+  function __construct()
+  {
+    parent::__construct();
+  }
+
+  function index()
+  {
+    if($this->session->userdata('logged_in'))
     {
-        $this->load->helper(array('form', 'url'));
-        $this->load->library('form_validation');
-        
-        $this->form_validation->set_rules('login', 'Login', 'required|callback_checkUser');
-	$this->form_validation->set_rules('pass', 'Password', 'required|callback_checkUser');
-        
-        if ($this->form_validation->run() == FALSE)
-        {
-                $this->load->view('index');
-        }
-        else
-        {
-                $this->load->view('login');
-        }
+      $session_data = $this->session->userdata('logged_in');
+      $data['login'] = $session_data['login'];
+      $this->load->view('login', $data);
     }
-    
-    public function checkUser()
+    else
     {
-        $login = $this->input->post('login');
-        $pass = $this->input->post('pass');
-        
-        $this->load->model('LoginModel');
-        
-        if ($this->LoginModel->login($login,$pass))
-        {
-            return TRUE; 
-        }
-        else
-        {
-            $this->form_validation->set_message('checkUser', 'Bledne dane logowania');
-            return FALSE;   
-        }
+      //If no session, redirect to login page
+       $this->load->view('index');
     }
-   
-    
-    
+  }
+  
+  function logout()
+  {
+    $this->session->unset_userdata('logged_in');
+    session_destroy();
+    $this->load->view('index');
+  }
+
+
 }
+
+?>
