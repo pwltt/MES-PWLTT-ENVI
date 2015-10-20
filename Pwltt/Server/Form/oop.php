@@ -1,40 +1,25 @@
 <?php
 require 'IoOP.php';
-abstract class oop implements IoOP
-{
-    function suma($liczba1,$liczba2)
-    {
-        
+abstract class oop  implements IoOP
+{   
+    function suma($liczba1,$liczba2){  
         $wynik = $liczba1 + $liczba2;
-        return $wynik;
-         
+        return $wynik; 
     }
-    
-    function roznica($liczba1,$liczba2)
-    {
-        
+    function roznica($liczba1,$liczba2){
         $wynik = $liczba1 - $liczba2;
-        return $wynik;
-         
+        return $wynik;   
     }
-    
-    function iloczyn($liczba1,$liczba2)
-    {
-        
+    function iloczyn($liczba1,$liczba2){
         $wynik = $liczba1 * $liczba2;
-        return $wynik;
-         
+        return $wynik;    
     }
     
-    function iloraz($liczba1,$liczba2)
-    {
-        
+    function iloraz($liczba1,$liczba2){ 
         $wynik = $liczba1 / $liczba2;
         return $wynik;
-         
     }
-    function oblicz($znak,$liczba1,$liczba2)
-    {
+    function oblicz($znak,$liczba1,$liczba2){
         switch ($znak)
         {
             case "+":

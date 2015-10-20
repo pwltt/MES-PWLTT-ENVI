@@ -2,7 +2,6 @@
 
 interface IoOP
 {
-
     function suma($liczba1,$liczba2);
     
     function roznica($liczba1,$liczba2);
@@ -12,4 +11,6 @@ interface IoOP
     function iloraz($liczba1,$liczba2);
     
     function oblicz($znak,$liczba1,$liczba2);
+    
+    
 }

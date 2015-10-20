@@ -1,0 +1,35 @@
+<?php
+class SampleObject
+      {
+         public $var1;
+         private $var2;
+         protected $var3;
+         public static $var4;
+         private $staticvars = array();
+         public function __construct()
+         {
+            $this->var1 = "Pierwsza wartość";
+            $this->var2 = "Druga wartość";
+            $this->var3 = "Trzecia wartość";
+            SampleObject::$var4 = "Czwarta wartość";
+         }
+         public function __sleep()
+         {
+            $vars = get_class_vars(get_class($this));
+            foreach($vars as $key=>$val)
+            {
+               if (!empty($val))
+               $this->staticvars[$key]=$val;
+            }
+            return array_keys( get_object_vars( $this ) );
+         }
+         public function __wakeup()
+         {
+            foreach ($this->staticvars as $key=>$val)
+            {
+               $prop = new ReflectionProperty(get_class($this), $key);
+               $prop->setValue(get_class($this), $val);
+            }
+// $this->staticvars=array(); }
+         }
+      }
