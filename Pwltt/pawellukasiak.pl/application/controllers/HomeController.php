@@ -3,9 +3,9 @@
     {
     	public function index()
 		{
-                $this->load->helper('form'); 
-		$this->load->view('index');
-		}
+                $this->load->helper('form');
+		$this->load->view('index.php');
+                $this->load->model('model');
+                }
     }
-    
 ?>
