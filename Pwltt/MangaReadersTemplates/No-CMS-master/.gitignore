@@ -1,0 +1,75 @@
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# installation specific file
+assets/caches/*.js
+assets/caches/*.css
+modules/*/config/module_config_*.php
+application/config/main
+application/config/site-*
+application/config/tmp/*.php
+application/helpers/cms_extended_login_helper.php
+/.htaccess
+application/logs/log*.php
+assets/grocery_crud/texteditor/ckeditor/config.js
+assets/kcfinder/config.php
+/site.php
+/hostname.php
+_cache_*.js
+_cache_*.css
+application/config/token*.php
+
+# the sql
+modules/*/assets/db/backup*.sql
+
+# info module
+modules/*/controllers/Info_*.php
+
+.tags*
+
+# my private modules
+modules/gis
+modules/typing_defense
+modules/ssc
+modules/gis_assignment
+modules/library_app
+modules/pmb_online
+modules/town_project
+modules/loanword_searchengine
+modules/stiki_ibk
+modules/pendaftaran_wisuda
+modules/library_app
+modules/shop
+modules/pbfrontend
+modules/artificial_intelligence/assets/data/1_*
+modules/conference
+modules/oepet
+modules/breast_cancer
+modules/simple_erp
+modules/simple_erp_old
+modules/mlm
+modules/ishare

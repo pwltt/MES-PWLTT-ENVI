@@ -51,13 +51,21 @@
 
 <!--Alert zielony-->
         <div role="alert" class="alert alert-success">
-          <strong>Manga Reader dla celów naukowych!</strong> 
+          <strong>Manga Reader dla celów naukowych!</strong>
         </div>
-        <!--Koniec Alert-->
-
+<!--Koniec Alert-->
+        <div>
+           <?php 
+           echo validation_errors();
+                echo form_open('Welcome/index');
+                echo form_input('input1','','class="input-sm"');
+                echo form_button('button1','Nacisnij','class="btn-danger"');
+                echo form_close();
+           ?>
+        </div>
         
         
-        
+        </div>
 
 
 <!-- KONIEC GLOWNY BLOK STRONY-->
