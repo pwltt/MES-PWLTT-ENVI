@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" >
     
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
@@ -50,28 +50,29 @@
         <div class="container">
 
 <!--Alert zielony-->
-        <div role="alert" class="alert alert-success">
-          <strong>Manga Reader dla celów naukowych!</strong>
+<div role="alert" class="alert alert-success">
+    <div id="fileNames"></div><strong>Manga Reader dla celów naukowych!</strong>
         </div>
 <!--Koniec Alert-->
         <div>
            <?php 
-           echo validation_errors();
-                echo form_open('Welcome/index');
-                echo form_input('input1','','class="input-sm"');
-                echo form_button('button1','Nacisnij','class="btn-danger"');
+                echo validation_errors();
+                echo form_open('index/click');
+               foreach($obrazki as $value=>$key)
+                   {   
+                    echo form_submit($value,$value+1,'class=btn btn-hover');
+                }
                 echo form_close();
-           ?>
+                var_dump($obrazki);
+            ?>
         </div>
         
-        
+<br>
+
+   
+       </div>
         </div>
-
-
 <!-- KONIEC GLOWNY BLOK STRONY-->
-    
-       
-         
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script> 
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>

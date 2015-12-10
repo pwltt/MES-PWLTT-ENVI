@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class index extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -17,7 +17,7 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-         private $liczba;
+         public $data;
         function __construct() {
             parent::__construct();
             $this->load->model('Oblicz');
@@ -25,10 +25,27 @@ class Welcome extends CI_Controller {
         
 
         public function index(){
-		$this->load->view('index');
+            
+           
+            $this->data['obrazki'] = get_filenames('images/');
+            
+            
+		$this->load->view('index',  $this->data);
 	}
-        
-        
+        public function click(){
+            
+             $this->load->view('index',  $this->data);
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+                if (isset($_POST['0'])) {
+                    $this->data['wyswietl'] = $this->data->obrazki['0'];
+                    $this->load->view('index',  $this->data);
+                } else {
+                    //assume btnSubmit
+                }
+            }
+        }
+                
 }
 
 /* End of file welcome.php */

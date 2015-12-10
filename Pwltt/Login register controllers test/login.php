@@ -64,7 +64,7 @@
         <!--Alert zielony-->
         <div role="alert" class="alert alert-success">
           <strong>Udalo Ci sie zalogowac</strong>
-          <h2>Welcome <?php echo $username; ?>!</h2>
+          <h2>Welcome <?php echo $login; ?>!</h2>
           <a href="LoginController/logout"> Logout</a>
         </div>
 <!--Koniec Alert-->
