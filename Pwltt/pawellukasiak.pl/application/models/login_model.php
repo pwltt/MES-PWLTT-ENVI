@@ -1,5 +1,4 @@
-<?php
-
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Login_model extends CI_Model
 {
     function __construct() {
@@ -8,16 +7,23 @@ class Login_model extends CI_Model
         $this -> load -> database();
     }
     
-    public function get_data($page){
-        $res = $this -> db -> where('shortname', $page) -> limit(1) -> get('pages');
-        if($res -> num_rows > 0){
-            $pages = array();
-            foreach($res -> row() as $key => $value){
-                $pages[$key] = $value;
+    public function login($username,$password,$email)
+    {
+        $this->db->where("username",$username);
+        $this->db->where("password",$password);
+        $this->db->where("email",$email);
+        $query = $this->db->get('user');
+
+        if($query -> num_rows > 0){
+            $users = array();
+            foreach ($query->result_array() as $row => $value)
+            {
+                 $users[$row] = $value;
             }
-            return $pages;
+            return $users;
         } else {
             return false;            
         }
+       
     }
 }
