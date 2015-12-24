@@ -20,13 +20,14 @@
             <ul class="nav navbar-nav">
                 
                 <li><a href="https://github.com/pwltt/MES-PWLTT-ENVI/tree/master/Pwltt/pawellukasiak.pl" 
-                       class="fa fa-github-square" style="font-size: xx-large; cursor: pointer"></a></li>
-                       
+                       class="fa fa-github-square text-center" style="font-size: xx-large; cursor: pointer"></a></li>
+                <li><a href="https://www.facebook.com/pawelwygral" 
+                       class="fa fa-facebook-square text-center" style="font-size: xx-large; cursor: pointer"></a></li>    
             </ul>
               
             <!-- PASEK SEARCH ----------------------------------- -->
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
+            <form class="navbar-form navbar-left text-center" role="search">
+              <div class="form-group ">
                 <input type="text" class="form-control" placeholder="Wpisz słowo">
               </div>
               <button type="submit" class="btn btn-default">Szukaj</button>
@@ -36,9 +37,9 @@
             <ul class="nav navbar-nav navbar-right">
                 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="caret"></span> 
-                    <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size: x-large" ></span>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size: x-large; " ></span>
                 </a>
                 <ul class="dropdown-menu">
                     <?php
@@ -65,13 +66,16 @@
  
   <div class="container">
     <div id="register_dialog" title="Zarejestruj">
-        <?php 
-        echo form_open('registration');
-         echo validation_errors(); ?>
+        <?php echo form_open('registration');
+        ?>
         <div class="form-group">
+            <?php echo form_error('login','<div> Błędny login lub hasło</div>'); ?>
             <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
+            <?php echo form_error('email'); ?>
             <input type="email" class="form-control " id="inputEmail3" placeholder="Email" name="email" value="<?php echo set_value('email'); ?>">
+            <?php echo form_error('password'); ?>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
+            <?php echo form_error('con_password'); ?>
             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Potwierdź haslo" name="con_password" value="<?php echo set_value('con_password'); ?>">
             <button type="submit" class="btn btn-default">Zarejestruj</button>
         </div>
@@ -83,10 +87,10 @@
     
    <div class="container">
     <div id="login_dialog" title="Zaloguj">
-        <?php echo validation_errors();
-              echo form_open('login');
+        <?php echo form_open('login');
         ?>
         <div class="form-group form-inline">
+            <?php echo form_error('password','<div> Błędny login lub hasło</div>'); ?>
             <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
             <button type="submit" class="btn btn-default">Zaloguj</button>

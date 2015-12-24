@@ -12,12 +12,12 @@ class Login extends CI_Controller
             die("Page template doesn't exists!"); 
     }
     public function login(){
-        $this -> form_validation -> set_rules(  'login'  , 'User Name'  , 'trim|required|min_length[4]|xss_clean'  );
+        $this -> form_validation -> set_rules(  'login'  , 'Username'  , 'trim|required|min_length[4]|xss_clean'  );
         $this -> form_validation -> set_rules(  'password'  , 'Password'  , 'trim|required|min_length[4]|max_length[32]|xss_clean|callback_password_check'  );
             
-        if($this->form_validation->run() == FALSE)
+        if($this->form_validation->run() == FALSE){
             $this ->failedLogin();
-        else
+        } else
             $this ->welcome();
     }
     public function welcome(){
