@@ -1,34 +1,34 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Page extends CI_Controller {
-        
-        private $data;
-        
-        function __construct()
-        {
+class Page extends CI_Controller 
+{
+        function __construct(){
           parent::__construct();
-          $this->load->model('login_model');
         }
-        
-        function index() {
-        $this -> data = array(
-            //'users' => $this ->getUsers_data()
-        );
+        function index(){
             if($this -> page_exists()){
-                $this -> load -> view(  'head'  );
-                $this -> load -> view(  'page' ,  $this -> data);
-            } else {
-                die("Page template doesn't exists!");                
-            }
-        
-        
+                $this ->loadPage();
+            } else 
+                die("Page template doesn't exists!");    
         }
-
-//        private function getUsers_data(){
-//            return $this -> login_model -> get_data();
-//        }
-
+        private function loadPage(){
+            $data['title'] = "Witam ";
+            $this -> load -> view('head');
+            $this -> load -> view('navBar');
+            $this -> load -> view('page', $data);
+        }
         private function page_exists(){
             return file_exists(APPPATH . "views/page.php");
+        }
+        public function logout(){    
+            $newdata = array(
+            'user_id'   =>'',
+            'user_name'  =>'',
+            'user_email'  => '',
+            'logged_in' => FALSE,
+            );
+            $this -> session -> unset_userdata($newdata);
+            $this -> session -> sess_destroy();
+            $this ->index();
         }
 }
