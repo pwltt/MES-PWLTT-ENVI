@@ -12,23 +12,11 @@ class Page extends CI_Controller
                 die("Page template doesn't exists!");    
         }
         private function loadPage(){
-            $data['title'] = "Witam ";
             $this -> load -> view('head');
             $this -> load -> view('navBar');
-            $this -> load -> view('page', $data);
+            $this -> load -> view('page');
         }
         private function page_exists(){
             return file_exists(APPPATH . "views/page.php");
-        }
-        public function logout(){    
-            $newdata = array(
-            'user_id'   =>'',
-            'user_name'  =>'',
-            'user_email'  => '',
-            'logged_in' => FALSE,
-            );
-            $this -> session -> unset_userdata($newdata);
-            $this -> session -> sess_destroy();
-            $this ->index();
         }
 }

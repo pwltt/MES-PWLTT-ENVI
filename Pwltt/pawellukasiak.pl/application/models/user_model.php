@@ -38,10 +38,13 @@ class user_model extends CI_Model
              );
             }
             $this -> session -> set_userdata($this -> newdata);
+            $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Udało Ci się zalogować <strong>'. $this -> newdata['user_name'] .'</strong>  </div>');
             return TRUE;
         }
-        else
-        return FALSE;
+        else{
+            $this->session->set_flashdata('msg','<div class="alert alert-danger text-center"> Błędny Login lub hasło </div>');
+            return FALSE;
+        }
     }
     public function searchUser($username){
         $query = $this -> db -> where("username",$username) -> get('user');
@@ -57,7 +60,5 @@ class user_model extends CI_Model
         else
             return FALSE;
     }
-    
-
 }
 

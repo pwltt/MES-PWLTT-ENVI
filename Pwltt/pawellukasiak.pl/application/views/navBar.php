@@ -45,16 +45,14 @@
                     <?php
                     if ($this->session->userdata('logged_in') == TRUE)
                     { ?>
-                        <li> <a class="glyphicon glyphicon-cog" aria-hidden="true" style="font-size: medium; cursor: pointer">  Ustawienia </a></li>
+                        <li><a class="glyphicon glyphicon-cog" aria-hidden="true" style="font-size: medium; cursor: pointer"> Ustawienia </a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="page/logout" style="cursor: pointer">Logout</a></li>
+                        <li><a href="login/logout" style="cursor: pointer">Logout</a></li>
                     <?php
                     } else{   ?>
                         <li><a id="login_button" style="cursor: pointer">Zaloguj</a></li>
                         <li><a id="register" style="cursor: pointer">Zarejestruj</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
                     <?php } ?>
                     
                 </ul>
@@ -69,13 +67,9 @@
         <?php echo form_open('registration');
         ?>
         <div class="form-group">
-            <?php echo form_error('login','<div> Błędny login lub hasło</div>'); ?>
             <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
-            <?php echo form_error('email'); ?>
             <input type="email" class="form-control " id="inputEmail3" placeholder="Email" name="email" value="<?php echo set_value('email'); ?>">
-            <?php echo form_error('password'); ?>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
-            <?php echo form_error('con_password'); ?>
             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Potwierdź haslo" name="con_password" value="<?php echo set_value('con_password'); ?>">
             <button type="submit" class="btn btn-default">Zarejestruj</button>
         </div>
@@ -90,7 +84,6 @@
         <?php echo form_open('login');
         ?>
         <div class="form-group form-inline">
-            <?php echo form_error('password','<div> Błędny login lub hasło</div>'); ?>
             <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
             <button type="submit" class="btn btn-default">Zaloguj</button>
