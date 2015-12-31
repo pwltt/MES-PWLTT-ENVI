@@ -1,16 +1,18 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class user_model extends CI_Model
 {
+    private $newdata;
     function __construct() {
         parent::__construct();
         $this -> load -> database();
     }
     public function add_user(){
         $data=array(
-          'username' => $this -> input -> post('login'),
-          'email' => $this -> input -> post('email'),
-          'password'=>  md5($this -> input -> post('password')),
-          'register_date' => now()
+            'username' => $this -> input -> post('login'),
+            'email' => $this -> input -> post('email'),
+            'password'=>  md5($this -> input -> post('password')),
+            'register_date' => $this -> date_upload(),
+            'last_login_date' => $this -> date_upload()
         );
         $query = $this -> db -> where("username",$data['username']) -> get('user');
         $query2 = $this -> db -> where("email",$data['email']) -> get('user');
@@ -23,19 +25,26 @@ class user_model extends CI_Model
     public function searchLogin($username,$password){
         $this -> db -> where('username',$username);
         $this -> db -> where('password',$password);
-        $this -> db -> limit(1);
         $query = $this -> db -> get('user');
 
         if ($query->num_rows() == 1) {
-            foreach($query->result() as $rows)
-            {
-             $this -> newdata = array(
-               'user_id'  => $rows -> id,
-               'user_name'  => $rows -> username,
-               'user_email'    => $rows -> email,
-               'date_register'  => $rows -> register_date, 
-               'logged_in'  => TRUE
-             );
+            
+            $date = array(
+                'last_login' => $this -> date_upload()
+            );
+            $this -> db -> where('username',$username);
+            $this -> db -> where('password',$password);
+            $this -> db -> update('user',$date); 
+            
+            foreach($query->result() as $rows){
+                $this -> newdata = array(
+                   'user_id'  => $rows -> id,
+                   'user_name'  => $rows -> username,
+                   'user_email'    => $rows -> email,
+                   'date_register'  => $rows -> register_date, 
+                   'logged_in'  => TRUE,
+                   'last_login_date' => $rows -> last_login
+                );
             }
             $this -> session -> set_userdata($this -> newdata);
             $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Udało Ci się zalogować <strong>'. $this -> newdata['user_name'] .'</strong>  </div>');
@@ -59,6 +68,28 @@ class user_model extends CI_Model
             return TRUE;
         else
             return FALSE;
+    }
+    public function date_upload(){
+        $datestring = "%Y-%m-%d %h:%i:%s";
+        $time = time();
+        return mdate($datestring, $time);
+    }
+    public function BestOfDayFormat(){
+        $value = $this -> session -> userdata('last_login_date');
+        
+        $time = strtotime($value);
+        $d = new \DateTime($value);
+
+        $weekDays = ['Poniedziałek', 'Wtorek', 'Sroda', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'];
+        $months = ['Stycznia', 'Lutego', 'Marca', 'Kwietnia','Maja', 'Czerwca', 'Lipca', 'Sierpnia', 'Września', 'Października', 'Listopada', 'Grudnia'];
+
+        if ($time >= strtotime('today') AND $time < strtotime('now')){
+                return 'Dziś o ' .$d->format('G:i');
+        }elseif ($time >= strtotime('yesterday') AND $time < strtotime('today')){
+                return 'Wczoraj o ' . $d->format('G:i');
+        }else{
+                return $d->format('j') . ' ' . $months[$d->format('n') - 1] . ' o ' . $d->format('G:i');
+        }
     }
 }
 

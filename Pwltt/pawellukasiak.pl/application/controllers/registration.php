@@ -15,23 +15,17 @@ class Registration extends CI_Controller
             $this -> form_validation -> set_rules('password'  , 'Password'  , 'trim|required|min_length[4]|max_length[32]'  );
             $this -> form_validation -> set_rules('con_password'  , 'Password Confirmation'  , 'trim|required|matches[password]'  );
 
-            if($this -> form_validation -> run() == FALSE){  
-               $data[ 'title' ] = "Użytkownik o tym Loginie lub adresie Email juz isnieje" ;
-               $this -> userStatusLoad($data);
+            if($this -> form_validation -> run() == FALSE){ 
+                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center"> Użytkownik o tym loginie lub adresie email juz istnieje </div>');
+                redirect('page');
             }
             else{
-               $this -> user_model  ->  add_user();
-               $data[  'register_status' ] = '1';
-               $data[  'title'  ] = "Udało Ci się zarejetrować!";
-               $this -> userStatusLoad($data);
+                $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Udało Ci się zarejestrować !</div>');
+                $this -> user_model  ->  add_user();
+                redirect('page');
             }
         }
-        private function userStatusLoad($data){
-               $this -> load -> view(  'head.php'  );
-               $this -> load -> view(  'navBar'  );
-               $this -> load -> view(  'panel/userStatus'  ,  $data );
-               $this -> load -> view(  'page.php' );
-        }
+        
         public function username_check($login){
             return $this -> user_model -> searchUser($login);
         }

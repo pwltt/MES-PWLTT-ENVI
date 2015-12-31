@@ -6,10 +6,7 @@ class Login extends CI_Controller
         $this  ->  load  ->  model('user_model'); 
     }
     public function index(){
-        if($this ->page_exists())
-            $this -> login();
-        else 
-            die("Page template doesn't exists!"); 
+        $this -> login();
     }
     private function login(){
         $this -> form_validation -> set_rules(  'login'  , 'Username'  , 'trim|required|min_length[4]|xss_clean'  );
