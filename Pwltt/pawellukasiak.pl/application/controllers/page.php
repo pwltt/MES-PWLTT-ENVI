@@ -13,7 +13,7 @@ class Page extends CI_Controller
             } else 
                 die("Page template doesn't exists!");    
         } 
-        private function loadPage(){
+        public function loadPage(){
 
             $this -> data['LastLogin'] = $this -> user_model -> BestOfDayFormat();
             

@@ -8,54 +8,20 @@ class user_model extends CI_Model
     }
     public function add_user(){
         $data=array(
-            'username' => $this -> input -> post('login'),
+            'username' => $this -> input -> post('login1'),
             'email' => $this -> input -> post('email'),
-            'password'=>  md5($this -> input -> post('password')),
+            'password'=>  md5($this -> input -> post('password1')),
             'register_date' => $this -> date_upload(),
-            'last_login_date' => $this -> date_upload()
+            'last_login' => $this -> date_upload()
         );
         $query = $this -> db -> where("username",$data['username']) -> get('user');
         $query2 = $this -> db -> where("email",$data['email']) -> get('user');
         
-        if($query -> num_rows == 0 && $query2 -> num_rows ==0)
-        {
+        if($query -> num_rows == 0 && $query2 -> num_rows ==0){
         $this -> db -> insert('user',$data);
         }
     }
-    public function searchLogin($username,$password){
-        $this -> db -> where('username',$username);
-        $this -> db -> where('password',$password);
-        $query = $this -> db -> get('user');
-
-        if ($query->num_rows() == 1) {
-            
-            $date = array(
-                'last_login' => $this -> date_upload()
-            );
-            $this -> db -> where('username',$username);
-            $this -> db -> where('password',$password);
-            $this -> db -> update('user',$date); 
-            
-            foreach($query->result() as $rows){
-                $this -> newdata = array(
-                   'user_id'  => $rows -> id,
-                   'user_name'  => $rows -> username,
-                   'user_email'    => $rows -> email,
-                   'date_register'  => $rows -> register_date, 
-                   'logged_in'  => TRUE,
-                   'last_login_date' => $rows -> last_login
-                );
-            }
-            $this -> session -> set_userdata($this -> newdata);
-            $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Udało Ci się zalogować <strong>'. $this -> newdata['user_name'] .'</strong>  </div>');
-            return TRUE;
-        }
-        else{
-            $this->session->set_flashdata('msg','<div class="alert alert-danger text-center"> Błędny Login lub hasło </div>');
-            return FALSE;
-        }
-    }
-    public function searchUser($username){
+    public function searchUsername($username){
         $query = $this -> db -> where("username",$username) -> get('user');
         if($query -> num_rows == 0)
             return TRUE;
@@ -69,19 +35,52 @@ class user_model extends CI_Model
         else
             return FALSE;
     }
+    public function searchLoginPassword($username,$password){
+        $this -> db -> where('username',$username);
+        $this -> db -> where('password',$password);
+        $query = $this -> db -> get('user');
+
+        if ($query->num_rows() == 1) {
+            
+            $data = array(
+                'last_login' => $this -> date_upload()
+            );
+            $this -> db -> where('username',$username);
+            $this -> db -> where('password',$password);
+            $this -> db -> update('user',$data); 
+            
+            foreach($query->result() as $rows){
+                $this -> newdata = array(
+                   'user_id'  => $rows -> id,
+                   'user_name'  => $rows -> username,
+                   'user_email'    => $rows -> email,
+                   'date_register'  => $rows -> register_date, 
+                   'logged_in'  => TRUE,
+                   'last_login' => $rows -> last_login
+                );
+            }
+            $this -> session -> set_userdata($this -> newdata);
+            $this -> session -> set_flashdata('msg','<div class="alert alert-success text-center"> Udało Ci się zalogować!</div>');
+            return TRUE;
+        }
+        else{
+            $this -> session -> set_flashdata('msg','<div class="alert alert-danger text-center"> Błędny Login lub hasło </div>');
+            return FALSE;
+        }
+    }
     public function date_upload(){
         $datestring = "%Y-%m-%d %h:%i:%s";
         $time = time();
         return mdate($datestring, $time);
     }
     public function BestOfDayFormat(){
-        $value = $this -> session -> userdata('last_login_date');
+        $value = $this -> session -> userdata('last_login');
         
         $time = strtotime($value);
-        $d = new \DateTime($value);
+        $d = new DateTime($value);
 
-        $weekDays = ['Poniedziałek', 'Wtorek', 'Sroda', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'];
-        $months = ['Stycznia', 'Lutego', 'Marca', 'Kwietnia','Maja', 'Czerwca', 'Lipca', 'Sierpnia', 'Września', 'Października', 'Listopada', 'Grudnia'];
+        $weekDays = array('Poniedziałek', 'Wtorek', 'Sroda', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela');
+        $months = array('Stycznia', 'Lutego', 'Marca', 'Kwietnia','Maja', 'Czerwca', 'Lipca', 'Sierpnia', 'Września', 'Października', 'Listopada', 'Grudnia');
 
         if ($time >= strtotime('today') AND $time < strtotime('now')){
                 return 'Dziś o ' .$d->format('G:i');

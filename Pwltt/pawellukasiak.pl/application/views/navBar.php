@@ -6,13 +6,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                    <a class="navbar-brand" href="#"><strong>Pwltt </strong>PHPortfolio</a>
+                <a class="navbar-brand" href="#"><strong>Pwltt </strong>PHPortfolio</a>
             </div>
 
           <!-- SOCIAL BUTTONS -->
@@ -54,7 +48,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="glyphicon glyphicon-cog" aria-hidden="true" style="font-size: medium; cursor: pointer"> Ustawienia </a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="login/logout" style="cursor: pointer">Logout</a></li>
+                            <li><a class="glyphicon glyphicon-log-out" href="login/logout" aria-hidden="true" style="font-size: medium; cursor: pointer; "> Logout </a></li>
                         </ul>
                     </li>
                 </ul>
@@ -68,7 +62,7 @@
                         <ul class="dropdown-menu">
                             <li><a id="login_button" style="cursor: pointer">Zaloguj</a></li>
                             <li><a id="register" style="cursor: pointer">Zarejestruj</a></li>
-                            <li role="separator" class="divider"></li>
+<!--                            <li role="separator" class="divider"></li>-->
                         </ul>
                     </li> 
                 <?php } ?>
@@ -76,35 +70,46 @@
             </div>
         </div>
     </nav>
- 
+ <!---->
   <div class="container">
     <div id="register_dialog" title="Zarejestruj">
-        <?php echo form_open('registration');
-        ?>
         <div class="form-group">
-            <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
-            <input type="email" class="form-control " id="inputEmail3" placeholder="Email" name="email" value="<?php echo set_value('email'); ?>">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
-            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Potwierdź haslo" name="con_password" value="<?php echo set_value('con_password'); ?>">
-            <button type="submit" class="btn btn-default">Zarejestruj</button>
-        </div>
-        <?php
+        <?php echo form_open('registration');
+        
+            echo form_input('login1',set_value('login1'),'class="form-control" placeholder="Login"'); 
+            echo form_error('login1'); 
+            
+            echo form_input('email',set_value('email'),'class="form-control" placeholder="Email" id="inputEmail3"'); 
+            echo form_error('email'); 
+            
+            echo form_password('password1',set_value('password1'),'class="form-control" placeholder="Haslo" id="exampleInputPassword1"'); 
+            echo form_error('password1'); 
+            
+            echo form_password('con_password',set_value('con_password'),'class="form-control" placeholder="Potwierdź hasło" id="exampleInputPassword1"'); 
+            echo form_error('con_password'); 
+            
+            echo form_submit('submit','Zarejestruj','class="btn btn-default"'); 
         echo form_close(); 
         ?>
+        </div>
     </div>
   </div>
-    
+
    <div class="container">
     <div id="login_dialog" title="Zaloguj">
-        <?php echo form_open('login');
-        ?>
-        <div class="form-group form-inline">
-            <input type="login" class="form-control" placeholder="Login" name="login" value="<?php echo set_value('login'); ?>">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo" name="password" value="<?php echo set_value('password'); ?>">
-            <button type="submit" class="btn btn-default">Zaloguj</button>
-        </div>
-        <?php
+        <div class="form-group">
+        <?php 
+         
+        echo form_open('login');
+            echo form_input('login',set_value('login'),'class="form-control" placeholder="Login"'); 
+            echo form_error('login'); 
+            
+            echo form_password('password',set_value('password'),'class="form-control" placeholder="Haslo" id="exampleInputPassword1"'); 
+            echo form_error('password'); 
+            
+            echo form_submit('submit','Zaloguj','class="btn btn-default"'); 
         echo form_close(); 
         ?>
+        </div>
     </div>
    </div>
