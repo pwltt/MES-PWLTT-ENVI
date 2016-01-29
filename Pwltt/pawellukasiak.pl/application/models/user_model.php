@@ -8,11 +8,12 @@ class user_model extends CI_Model
     }
     public function add_user(){
         $data=array(
-            'username' => $this -> input -> post('login1'),
-            'email' => $this -> input -> post('email'),
-            'password'=>  md5($this -> input -> post('password1')),
+            'username'      => $this -> input -> post('login1'),
+            'email'         => $this -> input -> post('email'),
+            'password'      =>  md5($this -> input -> post('password1')),
             'register_date' => $this -> date_upload(),
-            'last_login' => $this -> date_upload()
+            'last_login'    => $this -> date_upload(),
+            'email_approved'=> '0' 
         );
         $query = $this -> db -> where("username",$data['username']) -> get('user');
         $query2 = $this -> db -> where("email",$data['email']) -> get('user');
@@ -51,12 +52,13 @@ class user_model extends CI_Model
             
             foreach($query->result() as $rows){
                 $this -> newdata = array(
-                   'user_id'  => $rows -> id,
-                   'user_name'  => $rows -> username,
-                   'user_email'    => $rows -> email,
+                   'user_id'        => $rows -> id,
+                   'user_name'      => $rows -> username,
+                   'user_email'     => $rows -> email,
                    'date_register'  => $rows -> register_date, 
-                   'logged_in'  => TRUE,
-                   'last_login' => $rows -> last_login
+                   'logged_in'      => TRUE,
+                   'last_login'     => $rows -> last_login,
+                   'email_approved' => $rows -> email_approved
                 );
             }
             $this -> session -> set_userdata($this -> newdata);
@@ -69,7 +71,7 @@ class user_model extends CI_Model
         }
     }
     public function date_upload(){
-        $datestring = "%Y-%m-%d %h:%i:%s";
+        $datestring = "%Y-%m-%d %H:%i:%s";
         $time = time();
         return mdate($datestring, $time);
     }

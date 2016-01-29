@@ -41,6 +41,7 @@
 $route['default_controller'] = "page";
 $route['404_override'] = '';
 //$route['page/(:any)'] = 'page/index/$1';
+$route["verifyEmail/(:any)"]="registration/verifyEmail/$1";
 
 
 /* End of file routes.php */

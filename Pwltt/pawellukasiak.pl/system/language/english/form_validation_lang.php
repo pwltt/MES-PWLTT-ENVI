@@ -1,6 +1,9 @@
 <?php
+$lang['search_Login_Password'] = "Błędny Login lub Hasło";
+$lang['username_check']        = "Login zajęty";
+$lang['email_check']           = "Email zajęty";
 
-$lang['required']			= "The %s field is required.";
+$lang['required']			= "Uzupełnij pole %s";
 $lang['isset']				= "The %s field must have a value.";
 $lang['valid_email']		= "The %s field must contain a valid email address.";
 $lang['valid_emails']		= "The %s field must contain all valid email addresses.";

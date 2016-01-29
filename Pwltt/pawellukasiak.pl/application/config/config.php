@@ -134,7 +134,7 @@ $config['subclass_prefix'] = 'MY_';
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@';
 
 
 /*
@@ -157,7 +157,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | invoke your controllers and its functions:
 | example.com/index.php?c=controller&m=function
 |
-| Please note that some of the helpers won't work as expected when
+| Please note that some of the helpers won't work as expected 
 | this feature is enabled, since CodeIgniter is designed primarily to
 | use segment based URLs.
 |
