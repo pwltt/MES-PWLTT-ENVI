@@ -1,0 +1,797 @@
+PLIK 1
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody maj¹tkowe    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dochody maj¹tkowe; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY MAJ¥TKOWE -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POWIATU -> OGÓ£EM 
+
+PLIK 2 
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody na 1 mieszkañca      
+Ostatnia aktualizacja	2016-05-09
+Wymiary	
+Jednostki terytorialne; Zakres przedmiotowy; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY NA 1 MIESZKAÑCA -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POWIATU -> DOCHODY WLASNE 
+
+PLIK 3
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody maj¹tkowe    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dochody maj¹tkowe; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOSCHODY MAJ¥TKOWE -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POWIATU -> WP£YWY ZE SPRZEDA¯Y SK£ADNIKÓW MAJ¥TKOWYCH 
+
+PLIK 4
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody na 1 mieszkañca      
+Ostatnia aktualizacja	2016-05-09
+Wymiary	
+Jednostki terytorialne; Zakres przedmiotowy; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY NA 1 MIESZKAÑCA -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POSWIATU -> DOCHODY W£ASNE UDZIA£Y W PODATKACH STANOWI¥CYCH DOCHODY BUD¯ETU PAÑSTWA PODATEK DOCHODOWY OD OSOB FIZYCZNYCH
+
+PLIK 5
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody na 1 mieszkañca      
+Ostatnia aktualizacja	2016-05-09
+Wymiary	
+Jednostki terytorialne; Zakres przedmiotowy; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY NA 1 MIESZKAÑCA -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POSWIATU -> DOCHODY W£ASNE UDZIA£Y W PODATKACH STANOWI¥CYCH DOCHODY BUD¯ETU PAÑSTWA PODATEK DOCHODOWY OD OSOB PRAWNYCH
+
+PLIK 6 
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody na 1 mieszkañca      
+Ostatnia aktualizacja	2016-05-09
+Wymiary	Jednostki terytorialne; Zakres przedmiotowy ; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY NA 1 MIESZKAÑCA -> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POSWIATU -> DOCHODY PODATKOWE USTALONE I POBIERANE NA PODSTAWIE ODRÊBNYMCH USTAW
+
+PLIK 7
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em      
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dochody; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM-> LATA 2010-2014 
+-> GMINY L¥CZNIE Z MIASTAMI NA PRAWACH POSWIATU -> OGÓ£EM
+
+PLIK 8
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> ROLNICTWO I LOWIECTWO
+
+PLIK 9
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> LEŒNICTWO
+
+PLIK 10
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> RYBOLOWSTWO I RYBACTWO
+
+PLIK 11
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> GÓRNICTWO I KOPALNICTWO
+
+PLIK 12
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> PRZETWÓRWÓRSTWO PRZEMYS£OWE
+
+PLIK 13
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> wYTWARZANIE I ZAOPATRZENIE W ENERGIE ELEKRTYCZNA, GAZ I WODE
+
+PLIK 14
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> HANDEL
+
+PLIK 15
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> HOTELE I RESTAURACJE
+
+PLIK 16
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> TRANSPORT I £¥CZNOŒÆ 
+
+PLIK 17
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> TURYSTYKA
+
+PLIK 18
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> GOSPODARKA MIESZKANIOWA
+
+PLIK 19
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DZIALNOSC US£UGOWA
+
+PLIK 20
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> INFORMATYKA
+
+PLIK 21
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> NAUKA
+
+PLIK 22
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> ADMINISTRACJA PUBLICZNA
+
+PLIK 23
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> URZÊDY NACZELNYCH ORGANÓW W£ADZY PAÑSTOWEJ, KATEGORI I OCHRONY PRAWA ORAZ S¥DOWNICTWA
+
+PLIK 24
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OBRONA NARODOWA
+
+PLIK 25
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OBOWI¥ZKOWE UBEZPIECZENIA SPO£ECZNE
+
+PLIK 26
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> BEZPIECZEÑSTWO PUBLICZE I OCHRONA PRZECIWPO¯AROWA
+
+PLIK 27
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> WYMIAR SPRAWIEDLIWOŒCI
+
+PLIK 28
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY OD OSOB PRYWATNYCH, OD OSOB FIZYCZNYCH I OD INNYCH JEDNOSTEK NIEPOSIADAJACYCH OSOBOWOSCI PRAWNEJ ORAZ WYDATKI ZWIAZANE Z ICH POBOREM
+
+PLIK 29
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OBSLUGA DLUGU PUBLICZNEGO
+
+PLIK 30
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> ROZNE ROZLICZENIA
+
+PLIK 31
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OSWIATA I WYCHOWANIE
+
+PLIK 32
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> SZKOLNICTWO WY¯SZE
+
+PLIK 33
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OCHRONA ZDROWIA
+
+PLIK 34
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> POMOC SPO£ECZNA
+
+PLIK 35
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> POZOSTALE ZADANIA W ZAKRESIE POLITYKI SPOLECZNEJ
+
+PLIK 36
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> EDUKACYJNA OPIEKA WYCHOWAWCZA
+
+PLIK 37
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> GOSPODARKA KOMUNALNA I OCHRONA ŒRODOWIKA
+
+PLIK 38
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> KULTURA I OCHRODA DZIEDZICTWA NARODOWEGO 
+
+PLIK 39
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> OGRODY BOTAN. I ZOOLOG. ORAZ NATURALNE OBSZARY I OBIEKTY CHRONIONEJ PRZYGODY
+
+PLIK 40
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> KULTURA FIZYCZNA I SPORT
+
+PLIK 41
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody ogó³em wg dzia³ów Klasyfikacji Bud¿etowej      
+Ostatnia aktualizacja	2016-02-17
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> KULTURA FIZYCZNA
+
+PLIK 42
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> ROLNICTWO I £OWIECTWO
+
+PLIK 42,5
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> ROLNICTWO I £OWIECTWO
+
+PLIK 43
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> LEŒNICTWO
+
+PLIK 43,5
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> LEŒNICTWO
+
+PLIK 44
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> RYBO£ÓWSTWO I RYBACTWO
+
+PLIK 44,5
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> RYBO£ÓWSTWO I RYBACTWO
+
+PLIK 45
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> GÓRNICTWO I KOPALNICTWO
+
+PLIK 45
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> GÓRNICTWO I KOPALNICTWO
+
+PLIK 46
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> PRZETWÓRTWO PRZEMYS£OWE
+
+PLIK 47
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> WYTWARZANIE I ZAOPATRZENIE W ENERGIÊ ELEKTRYCZN¥, GAZ I WODÊ
+
+PLIK 48
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> HOTELE I RESTAURACJE
+
+PLIK 49
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> TRANSPORT I £¥CZNOŒÆ
+
+PLIK 50
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> TURYSTYKA
+
+PLIK 51
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> GOSPODARKA MIESZKANIOWA
+
+PLIK 52
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> DZIA£ALNOŒÆ US£UGOWA
+
+PLIK 53
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> ADMINISTRACJA PUBLICZNA
+
+PLIK 54
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> BEZPIECZEÑSTWO PUBLICZNE I OCHRONA PRZECIWPO¯AROWA
+
+PLIK 55
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> WYMIAR SPRAWIEDLIWOSCI 
+
+PLIK 56
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> OŒWIATA I WYCHOWANIE 
+
+PLIK 57
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> SZKOLNICTWO WY¯SZE
+
+PLIK 58
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> OCHRONA ZDROWIA
+
+PLIK 59
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> POMOC SPO£ECZNA
+
+PLIK 60
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> POZOSTA£E ZADANIA W ZAKRESIE POLITYKI SPO£ECZNEJ
+
+PLIK 61
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> EDUKACYJNA OPIEKA WYCHOWAWCZA
+
+PLIK 62
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> GOSPODARKA KOMUNALNA I OCHRONA ŒRODOWISKA
+
+PLIK 63
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> KULTURA I OCHRONA DZIEDZICTWA NARODOWEGO
+
+PLIK 64
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> OGRODY BOTANICZNE I ZOOLOGICZNE ORAZ NATURALNE OBSZARY I OBIEKTY CHRONIONEJ PRZYRODY
+
+PLIK 65
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> KULTURA FIZYCZNA I SPORT 
+
+PLIK 66
+Kategoria	FINANSE PUBLICZNE  
+Grupa	DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU  
+Podgrupa	Dochody uzyskane w rozdzia³ach ***78 - Usuwanie skutków klêsk ¿ywio³owych    
+Ostatnia aktualizacja	2016-02-16
+Wymiary	
+Jednostki terytorialne; Dzia³y klasyfikacji bud¿etowej; Lata 2010-2014
+
+ŒCIE¯KA: DANE-> FINANSE PUBLICZNE -> DOCHODY BUD¯ETÓW GMIN I MIAST NA PRAWACH POWIATU -> DOCHODY OGÓ£EM WG DZIA£ÓW KLASYFIKACJI BUD¯ETOWEJ -> LATA 2010-2014 
+-> DOCHODY UZYSKANE W ROZDZIA£ACH ***78 - USUWANIE SKUTKÓW KLÊSK ¯YWIO£OWYCH 
+-> KULTURA FIZYCZNA
